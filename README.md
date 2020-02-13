@@ -35,8 +35,6 @@ La salida debería verse más o menos así:
 
 ## Variantes de comensales.py
 
-Este es el de la clase pasada. Si todavía no lo terminaste, terminalo ahora.
-
 Ahora podés probar algunas variantes. Por ejemplo
 
 * Que haya más de un cocinero, compiten por quién cocina primero y solamente uno puede cocinar.
