@@ -32,6 +32,9 @@ La salida debería verse más o menos así:
 19:22:57.350 [Comensal 4] - ¡Qué rico! Quedan 2 platos
 19:22:57.350 [Comensal 3] - ¡Qué rico! Quedan 1 platos
 ```
+### Comentario
+
+No se puede asegurar que el thread que llamó al cocinero y se queda esperando, sea el primero en recibir un plato cuando el cocinero termina de cocinar. Esto es algo inherente a la concurrencia. Se puede leer de [acá](https://docs.python.org/3.8/library/threading.html#semaphore-objects) del `acquire()`.
 
 ## Variantes de comensales.py
 
